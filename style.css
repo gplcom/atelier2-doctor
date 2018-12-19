@@ -21,7 +21,7 @@ section div#divImage, section div#description{
 	box-sizing: border-box;
 }
 #divImage{
-	background-image: url("img/body.png");
+	background-image: url("body.png");
 	background-repeat: no-repeat;
 	width: 150px;
 	float: left;
