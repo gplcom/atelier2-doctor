@@ -1,0 +1,83 @@
+body{
+	background: #eee url() 0 0 no-repeat;
+}
+
+h1{
+	text-align: center;
+} 
+
+div{display: block;
+	padding:0;
+	
+}
+section{
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+section div#divImage, section div#description{
+	height: 500px;
+	box-sizing: border-box;
+}
+#divImage{
+	background-image: url("img/body.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	float: left;
+}
+#description{
+	width: 350px;
+	margin-left: 150px;
+	position: relative;
+	bottom: 0;
+}
+
+div#description{    
+	text-orientation: bottom;
+	padding: 50px;	
+}
+
+.stylesheet{
+	font-family: 'Arvo',no-serif; url:'fonts.googleapis.com/css?family=Arvo'
+}
+.cercle{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+}
+.active{ 
+    background-color: rgba(255, 0, 0, 0.7)
+	}
+.description{
+	display: none;
+}
+
+#epaule{
+	top: 15%;
+	left: 2%;
+}
+#coude{
+	top: 33%;
+	left: 21%;
+}
+#poignet{
+	top: 43%;
+	left: -1%;
+}
+#hanche{
+	top: 45%;
+	left: 18%;
+}
+#genoux{
+	top: 67%;
+	left: 6%;
+}
+#cheville{
+	top: 85%;
+	left: 14%;
+}
+
+
